@@ -1,0 +1,78 @@
+/*fonts path*/
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url(../../fonts/Montserrat-Thin.ttf);
+}
+@font-face {
+  font-family: "Montserrat-ExtraLight";
+  src: url(../../fonts/Montserrat-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(../../fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(../../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url(../../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "Mostserrat-ExtraBold";
+  src: url(../../fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url(../../fonts/Montserrat-Black.ttf);
+}
+
+/*fonts format*/
+.t-thin {
+  font-family: "Montserrat-Thin" sans-serif;
+}
+.t-light {
+  font-family: "Montserrat-Light" sans-serif;
+}
+.t-bold {
+  font-family: "Montserrat-Bold" sans-serif;
+}
+.t-medium {
+    font-family: "Montserrat-Medium" sans-serif;
+}
+.t-extrabold {
+  font-family: "Montserrat-ExtraBold" sans-serif;
+}
+.t-black {
+  font-family: "Montserrat-Black" sans-serif;
+}
+
+.text-white {
+  color: #ffffff;
+}
+.text-center {
+  text-align: center;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+h1 h2 h3 {
+  font-family: "Montserrat-Bold";
+}
+h1 {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  margin-bottom: 2.1rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1.9rem;
+}

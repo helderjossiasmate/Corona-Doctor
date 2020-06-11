@@ -1,0 +1,29 @@
+.btn {
+  padding: 10px 18px;
+  border-radius: 9px;
+  /*font-size: 1.8rem;
+  text-transform: uppercase;*/
+  border: none;
+  cursor: pointer;
+}
+
+.btn.btn-line {
+  border: 1px solid white;
+  color: white;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.btn.btn-line:hover,
+.btn.btn-shadow {
+  background-color: #ffffff;
+  color: #ff5858;
+}
+
+.btn.btn-shadow {
+  -webkit-box-shadow: 0 6px 4px rgba(0, 0, 0, 0.13);
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.13);
+  background-color: white;
+  color: #ff5858;
+}
+

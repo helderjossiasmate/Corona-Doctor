@@ -1,0 +1,48 @@
+.Header {
+  background-image: linear-gradient(to right, #3f51b5 45%, #9aa3d8);
+  /*background-color: #3f51b5;*/
+  position: absolute;
+  width: 95.8vw;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.nav {
+  float: right;
+}
+.nav ul li {
+  display: inline-block;
+}
+.nav ul li a {
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0px 15px 0px 15px;
+}
+
+.nav ul li a:not(.btn)::before {
+  content: "";
+  height: 0.3rem;
+  background-color: #fff;
+  width: 0;
+  position: absolute;
+  top: -0.6rem;
+  left: 0;
+  transition: width 0.3s ease-in-out 0s;
+}
+
+.nav ul li.active a::before,
+.nav ul li:hover a::before,
+.nav ul li a:focus::before {
+width: 100%;
+}
+/*
+<div className="nav">
+                <ul>
+                <li><a href="#" className=" active">Página inicial</a></li>
+                    <li><a href="#" className="">Sobre</a></li>
+                    <li><a href="#" className="">Contacto</a></li>
+                    <li><a href="#" className="btn btn-line">Entrar</a></li>
+                    <li><a href="#" className="btn btn-line btn-shadow">Registar</a></li>
+                </ul>
+            </div>*/

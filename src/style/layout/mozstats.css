@@ -1,0 +1,25 @@
+.mozstats {
+    background-color: #cfcfcf;
+    padding: 10px 50px 60px 50px;
+    font-size: 1.9rem;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info {
+    width: 600px;
+    height: auto;
+    padding: 15px 25px 15px 25px;
+}
+.statsmoz {
+    /*color: #ffffff;
+    background-image: linear-gradient(to left, #3f51b5 , #9aa3d8);*/
+    background-color: #ffffff;
+    box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    height: 150px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 15px;
+}
